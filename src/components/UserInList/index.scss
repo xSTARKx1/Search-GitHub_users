@@ -1,0 +1,24 @@
+.user-wrapper {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.user-link {
+  text-decoration: none;
+  color: #4d4d4d;
+}
+
+.user-info {
+  display: flex;
+  padding: 15px;
+  &-image {
+    width: 100px;
+  }
+  &-wrapper {
+    padding-left: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
